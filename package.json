@@ -1,0 +1,10 @@
+{
+  "name": "ussp",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "test": "echo 'No tests specified'",
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev"
+  }
+}
