@@ -2,9 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Контакты — USA Shop | Бруклин, WhatsApp +1 (646) 322‑6000, hello@u-s-a.shop",
+  title: "Контакты — usXpress | Бруклин, WhatsApp +1 (646) 322‑6000, hello@usXpress.link",
   description:
-    "Офис в США: 1720 E 13th St, Brooklyn, NY 11229. Пишите в WhatsApp +1 (646) 322‑6000 или на email hello@u-s-a.shop. Поможем с выкупом, консолидацией и доставкой."
+    "Офис в США: 1720 E 13th St, Brooklyn, NY 11229. Пишите в WhatsApp +1 (646) 322‑6000 или на email hello@usXpress.link. Поможем с выкупом, консолидацией и доставкой."
 };
 
 export default function ContactsPage() {
@@ -12,11 +12,11 @@ export default function ContactsPage() {
     <>
       <section className="hero">
         <div className="container">
-          <h1>Контакты — USA Shop</h1>
+          <h1>Контакты — usXpress</h1>
           <p className="lead">Мы на связи по WhatsApp и email. Пишите — поможем с покупкой, доставкой и трекингом.</p>
           <div className="cta">
             <a className="btn btn-primary" href="https://wa.me/16463226000" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a>
-            <a className="btn" href="mailto:hello@u-s-a.shop">hello@u-s-a.shop</a>
+            <a className="btn" href="mailto:hello@usXpress.link">hello@usXpress.link</a>
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function ContactsPage() {
             </p>
             <p>
               WhatsApp: <a href="https://wa.me/16463226000" target="_blank" rel="noopener noreferrer">+1 (646) 322‑6000</a><br />
-              Email: <a href="mailto:hello@u-s-a.shop">hello@u-s-a.shop</a>
+              Email: <a href="mailto:hello@usXpress.link">hello@usXpress.link</a>
             </p>
             <p className="muted">Для посещения офиса требуется предварительная договорённость.</p>
           </div>

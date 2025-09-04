@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "USA Shop",
+  title: "usXpress",
   description: "Магазин из США"
 };
 

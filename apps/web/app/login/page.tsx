@@ -21,14 +21,14 @@ export default function LoginPage() {
       <div className="auth-bg" aria-hidden="true" />
       <div className="container auth-center">
         <div className="auth-card">
-          <div className="brand-top">USA Shop</div>
+          <div className="brand-top">usXpress</div>
           <h1>Вход в личный кабинет</h1>
           <p className="muted">Укажите email — отправим ссылку для входа. Ссылка действует 24 часа.</p>
 
           <div className="alert alert-warn" role="alert" style={{marginTop: '.5rem'}}>
             <strong>Извините, временно недоступно.</strong> Сейчас личный кабинет находится на техническом обслуживании и недоступен.
             Пожалуйста, оформляйте заказы через нашу страницу <Link href="/contacts">Контакты</Link> — напишите в WhatsApp или на email
-            <a href="mailto:hello@u-s-a.shop"> hello@u-s-a.shop</a>.
+            <a href="mailto:hello@usXpress.link"> hello@usXpress.link</a>.
           </div>
 
           {sent ? (

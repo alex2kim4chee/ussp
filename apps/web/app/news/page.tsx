@@ -2,7 +2,7 @@ import NewsFeedClient, { type Post } from "./NewsFeedClient";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Новости — USA Shop | Кросс‑бордер, пороги, логистика",
+  title: "Новости — usXpress | Кросс‑бордер, пороги, логистика",
   description:
     "Подборка важных новостей: лимиты ЕАЭС, сроки и правила пошлин, USPS, санкционные пакеты ЕС, обновления OFAC и НДС‑новшества ЕС."
 };
@@ -118,7 +118,7 @@ export default function NewsPage() {
     <>
       <section className="hero">
         <div className="container">
-          <h1>Новости USA Shop</h1>
+          <h1>Новости usXpress</h1>
           <p className="lead">Подборка важных обновлений по кросс‑бордеру (обновлено: {updated}).</p>
         </div>
       </section>

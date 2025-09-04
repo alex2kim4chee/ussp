@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "USA Shop — доставка покупок из США | Форвардинг, консолидация, трекинг",
+  title: "usXpress — доставка покупок из США | Форвардинг, консолидация, трекинг",
   description:
     "Покупайте в США и получайте заказы в России: адрес склада в США, приём и фото, консолидация, калькулятор стоимости, отслеживание и поддержка на русском."
 };
@@ -13,7 +13,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-wrap">
           <div className="hero-copy">
-            <h1>USA Shop — доставка покупок из США</h1>
+            <h1>usXpress — доставка покупок из США</h1>
             <p className="lead">
               Покупайте в американских интернет‑магазинах, принимайте товары на наш склад в США и отправляйте по миру. Консолидация, страховка, отслеживание — всё в одном личном кабинете.
             </p>
@@ -78,7 +78,7 @@ export default function HomePage() {
 
       <section className="section alt">
         <div className="container">
-          <h2>Почему USA Shop</h2>
+          <h2>Почему usXpress</h2>
           <div className="grid four">
             <div className="card">
               <h4>Прозрачные цены</h4>

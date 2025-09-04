@@ -41,7 +41,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link className="brand" href="/">USA Shop</Link>
+        <Link className="brand" href="/">usXpress</Link>
 
         <button
           className={`burger ${open ? "is-open" : ""}`}
