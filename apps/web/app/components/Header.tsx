@@ -29,7 +29,7 @@ export default function Header() {
 
   const links = [
     { href: "/", label: "Главная" },
-    { href: "/how-it-works", label: "Как это работает" },
+    { href: "/how-it-works", label: "Условия" },
     { href: "/calculator", label: "Калькулятор" },
     { href: "/tracking", label: "Отслеживание" },
     { href: "/forbidden", label: "Запрещённые товары" },
