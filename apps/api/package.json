@@ -1,0 +1,12 @@
+{
+  "name": "@ussp/api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "API service (placeholder)",
+  "scripts": {
+    "dev": "echo 'API not implemented yet'",
+    "build": "echo 'No build for API placeholder'",
+    "start": "echo 'API placeholder: nothing to start'"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "name": "@ussp/sdk",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Typed client SDK (placeholder)",
+  "scripts": {
+    "build": "echo 'SDK package placeholder'"
+  }
+}
+
