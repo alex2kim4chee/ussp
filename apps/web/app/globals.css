@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f2f2f2;
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+}
