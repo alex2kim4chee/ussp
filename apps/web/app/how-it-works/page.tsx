@@ -17,7 +17,7 @@ export default function HowItWorksPage() {
             Покупайте в США — мы выкупим, примем на складе, объединим покупки и доставим в ваш город. Ниже — подробные условия сервиса и агентский договор в краткой форме.
           </p>
           <div className="cta">
-            <Link className="btn btn-primary" href="/login">Зарегистрироваться</Link>
+            <Link className="btn btn-primary" href="/app">Заявка на выкуп</Link>
             <Link className="btn" href="/calculator">Рассчитать доставку</Link>
           </div>
         </div>

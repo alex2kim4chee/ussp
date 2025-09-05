@@ -20,7 +20,7 @@ export default function HomePage() {
             <div className="cta">
               <Link className="btn btn-primary" href="/calculator">Рассчитать доставку</Link>
               <Link className="btn btn-secondary" href="/tracking">Отслеживать отправление</Link>
-              <Link className="btn" href="/app">Личный кабинет</Link>
+              <Link className="btn" href="/app">Заявка на выкуп</Link>
             </div>
             <p className="muted">Склад в США • Фото поступлений • Консолидация • Поддержка на русском</p>
           </div>
@@ -106,7 +106,7 @@ export default function HomePage() {
           <p>
             Сразу после регистрации вы получите персональный складской адрес в США и инструкции по корректному оформлению адреса при покупках. Так мы автоматически сопоставим посылки вашему аккаунту.
           </p>
-          <Link className="btn btn-primary" href="/login">Зарегистрироваться</Link>
+          <Link className="btn btn-primary" href="/app">Заявка на выкуп</Link>
         </div>
       </section>
 

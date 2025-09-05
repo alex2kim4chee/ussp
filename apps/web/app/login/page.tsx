@@ -27,7 +27,7 @@ export default function LoginPage() {
 
           <div className="alert alert-warn" role="alert" style={{marginTop: '.5rem'}}>
             <strong>Извините, временно недоступно.</strong> Сейчас личный кабинет находится на техническом обслуживании и недоступен.
-            Пожалуйста, оформляйте заказы через нашу страницу <Link href="/contacts">Контакты</Link> — напишите в WhatsApp или на email
+            Пожалуйста, оформляйте заказы через страницу <Link href="/app">Запрос на выкуп</Link> — напишите в WhatsApp или на email
             <a href="mailto:hello@usXpress.link"> hello@usXpress.link</a>.
           </div>
 

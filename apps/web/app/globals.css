@@ -90,6 +90,29 @@ h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
   background: #059669;
 }
 
+/* Soft variants */
+.btn-muted {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+  color: #111827;
+}
+.btn-muted:hover { background: #e5e7eb; }
+
+.btn-danger-soft {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #7f1d1d;
+}
+.btn-danger-soft:hover { background: #fee2e2; }
+
+/* WhatsApp brand */
+.btn-whatsapp {
+  background: #25d366;
+  border-color: #25d366;
+  color: #fff;
+}
+.btn-whatsapp:hover { background: #1ebe5d; }
+
 /* Grid & cards */
 .grid {
   display: grid;
@@ -306,6 +329,7 @@ h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
 
 .form-field input[type="number"],
 .form-field input[type="text"],
+.form-field input[type="url"],
 .form-field select {
   width: 100%;
   padding: 0.55rem 0.7rem;
@@ -338,6 +362,10 @@ h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
 .price-table table { width: 100%; border-collapse: collapse; }
 .price-table th, .price-table td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #f0f2f5; }
 .price-table th { font-weight: 700; }
+
+/* Form validation */
+.input.invalid { border-color: #ef4444; background: #fff7f7; }
+.error { color: #b91c1c; font-size: 0.9rem; margin-top: 0.25rem; }
 
 /* Tracking */
 .soft { background: #f6f8fb; border-top: 1px solid #eef2f6; }

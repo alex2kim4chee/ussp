@@ -10,7 +10,11 @@ export default function TrackingPage() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const trimmed = input.trim();
-    if (trimmed) setCode(trimmed);
+    if (trimmed) {
+      setCode(trimmed);
+      const url = `https://www.cdek.ru/ru/tracking/?order_id=${encodeURIComponent(trimmed)}`;
+      window.open(url, "_blank");
+    }
   };
 
   return (
